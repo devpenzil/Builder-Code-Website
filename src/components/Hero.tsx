@@ -1,5 +1,3 @@
-import React from "react";
-
 function Hero() {
   return (
     <div className="container mx-auto py-40 h-screen flex flex-col justify-center items-end gap-20 relative">

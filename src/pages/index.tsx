@@ -1,12 +1,17 @@
-import Hero from '@/components/Hero'
-import React from 'react'
+import BlogAndInsights from "@/components/BlogAndInsights";
+import Hero from "@/components/Hero";
+import Head from "next/head";
 
 function Home() {
   return (
-    <div>
+    <>
+      <Head>
+        <title>Builder Code | Mobile App Company</title>
+      </Head>
       <Hero />
-    </div>
-  )
+      <BlogAndInsights />
+    </>
+  );
 }
 
-export default Home
+export default Home;
