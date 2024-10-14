@@ -1,6 +1,9 @@
+import Navbar from "./Navbar";
+
 function Hero() {
   return (
     <div className="container mx-auto py-40 h-screen flex flex-col justify-center items-end gap-20 relative snap-center">
+      <Navbar />
       <div className="text-[172px] leading-[200px]">
         We plan, Build and Deploy Apps
       </div>
@@ -9,9 +12,9 @@ function Hero() {
         companions. Let&apos;s embark on this creative adventure together and
         bring your vision to life with a friendly, modern, and innovative touch.
       </div>
-      <div className="absolute w-[120px] h-[120px] bg-black bottom-10 rounded-full text-white flex justify-center items-center left-0">
+      {/* <div className="absolute w-[120px] h-[120px] bg-black bottom-10 rounded-full text-white flex justify-center items-center left-0">
         Scroll
-      </div>
+      </div> */}
     </div>
   );
 }

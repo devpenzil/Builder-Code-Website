@@ -1,4 +1,3 @@
-import BlogAndInsights from "@/components/BlogAndInsights";
 import Description from "@/components/Description";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -18,7 +17,6 @@ function Home() {
       <Projects />
       <Services />
       <Testimonials />
-      <BlogAndInsights />
       <Footer />
     </>
   );
