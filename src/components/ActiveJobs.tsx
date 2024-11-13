@@ -23,7 +23,7 @@ function ActiveJobs() {
       {data.map((obj) => {
         return (
           <a href={obj.url} key={obj.name}>
-            <div className="flex justify-between border-y-[1px] py-10">
+            <div className="flex justify-between items-center border-y-[1px] py-10">
               <div>
                 <div className="text-[40px]">{obj.name}</div>
                 <div>{obj.desc}</div>
